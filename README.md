@@ -1,5 +1,11 @@
 # Schwab
 
+## Null-Hypothesis
+Natural Disaster damage costs do not cause a price for the following stock ticker symbols\
+- 
+
+
+
 ## Data
 Excel File Provided. Located in /rawdata
 
