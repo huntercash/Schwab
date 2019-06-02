@@ -1,4 +1,4 @@
-const data = d3.csv("/resources/data/2011_disaster_data.csv", function(d) {
+const data = d3.csv("/assets/data/2011_disaster_data.csv", function(d) {
     return {
         id: d.EVENT_ID,
         start_date : d.START_DATE,
