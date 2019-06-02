@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, render_template
 import flask_sqlalchemy
-import config
 import os
+
+if  not os.environ['DYNO']
+    import config
+    print(config.name)
 
 app = Flask(__name__)
 
