@@ -1,5 +1,7 @@
 
 rawdata/.DS_Store
 .DS_Store
-.ipynb_checkpoints/weather-checkpoint.ipynb
+.ipynb_checkpoints
 .vscode/settings.json
+config.py
+__pycache__
