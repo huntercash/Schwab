@@ -11,6 +11,7 @@ def home():
 
 
 @app.route("/data")
+def data():
     return jsonify({"data":"is empty"})
 
 if __name__ == "__main__":
