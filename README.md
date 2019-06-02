@@ -7,12 +7,11 @@ Natural Disaster damage costs do not cause a change in prices for stocks, etfs, 
 Excel File Provided. Located in datacleaning/rawdata
 
 ## Software Stack
-- requirements.txt
-- hosted on herokuapp
+- run a simple webserver for js files to work
 
 ### Backend
-- Database: mySQL 
-- Web Framework for API, Templates: Flask
+- Database: csv file
+- d3.js to use the data
 
 ### Front End
 - JS Libraries: D3, Plotly.JS
@@ -21,16 +20,16 @@ Excel File Provided. Located in datacleaning/rawdata
 - Quandl
 
 ## Analysis
-Found in Jupyter Notebook\
-**datacleaning/weather.ipynb**
+- Found in Jupyter Notebook
+- **datacleaning/weather.ipynb**
 
 ## Presentation
 Presentation/weather_exploration.pptx
 
 ## Sprints
 ### Sprint 1
-- Clean dates in jupyet notebook using pandas, export as CSV
-- Upload to mySQL to be used with Flask and create an API to use the data
+- Clean dates in jupyter notebook using pandas, export as CSV
+- build web framework to graph the data
 
 ### Sprint 2
 - Create Front End Environment and display stacked graph for financial data to be paired with disaster pricing data. 
