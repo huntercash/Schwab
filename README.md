@@ -9,39 +9,35 @@ Natural Disaster damage costs do not cause a change in prices for stocks, etfs, 
 Excel File Provided. Located in datacleaning/rawdata
 
 ## Software Stack
-- run a simple webserver for js files to work
+- Python[Pandas, Numpy, os]
+- Power BI
 
 ### Backend
 - Database: csv file
-- d3.js to use the data
-
-### Front End
-- JS Libraries: D3, Plotly.JS
 
 ### Secondary Data 
 - Quandl
 
-## Analysis
+## Data Cleaning
 - Found in Jupyter Notebook
 - **datacleaning/weather.ipynb**
 
 ## Presentation
-Presentation/weather_exploration.pptx
+Presentation/Analysis.pdf
 
 ## Sprints
 ### Sprint 1
 - Clean dates in jupyter notebook using pandas, export as CSV
-- build web framework to graph the data
+- Build power BI presentation to recieve feedback on next steps
 
 ### Sprint 2
-- Create Front End Environment and display stacked graph for financial data to be paired with disaster pricing data. 
-- Create Financial Price dips
+- Create Front End Web Environment and display stacked graph for financial data to be paired with disaster pricing data with "live" and historical data
 
 ### Sprint 3
-- Create Drop Downs for stakeholder to perform their own analysis
+- Create Drop Downs, search boxes for stakeholder to perform their own analysis
 
 ### Sprint 4
-- Bring in extra data that was not included in sprint 1, upload to new table and use Event ID to tie their primary keys together.
+- Bring in extra data that was not included in sprint 1, upload to new table and use Dates to tie the keys together.
 - Display extra metadata so a more in depth analysis can be performed
 
 ### Sprint 5
