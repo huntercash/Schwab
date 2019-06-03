@@ -1,4 +1,6 @@
 # Schwab
+- Requirements
+- Create 
 
 ## Null-Hypothesis
 Natural Disaster damage costs do not cause a change in prices for stocks, etfs, and commodities
